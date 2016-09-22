@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="spring-mvc-study:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="spring-mvc-study.war">
-      <element id="artifact" artifact-name="spring-mvc-study:war exploded" />
-    </root>
-  </artifact>
-</component>

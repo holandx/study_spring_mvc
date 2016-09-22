@@ -15,6 +15,14 @@ public class HelloController {
 		model.addAttribute("message", "Hello world 世界!");
 		return "hello";
 	}
+
+	@RequestMapping(/*method = RequestMethod.GET*/"/hello")
+	public String printWelcome() {
+//		model.addAttribute("id", id);
+//		model.addAttribute("message", "Hello world 世界!");
+		return "hello";
+	}
+	
 	@RequestMapping(value="/home", produces = "text/plain;charset=UTF-8")
 //	@RequestMapping(/*method = RequestMethod.GET*/"/home")
 	@ResponseBody
